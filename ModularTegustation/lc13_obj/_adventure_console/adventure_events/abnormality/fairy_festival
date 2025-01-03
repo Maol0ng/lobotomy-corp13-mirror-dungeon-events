@@ -6,7 +6,7 @@
 /datum/adventure_event/festival
   name = "Fairy Festival"
   desc = "YOU SEE FAIRY LIGHTS HOVERING IN THE GROVE"
-  require_abno = /mob/living/(I couldn't find the other stuff for this')
+  require_abno = /mob/living/simple_animal/abnormality/zayin/fairy_festival
   adventure_cords = list(
     "You enter a forest grove, ripe with dew and the scents of spring. <br>\
     Small lights flit between the trees, hiding amongst the greenery as they observe you.<br>\
@@ -58,7 +58,7 @@
         . += CoinFlipping(M)
         return
       if(3)
-        AdjustCurrency(ADV_EVENT_COIN_EASY)
+        AdjustHitPoint(10)
         return
       if(4)
         AdjustHitPoint(-5)
