@@ -9,13 +9,13 @@
   desc = "YOU SEE A WOOLY CREATURE SLEEPING IN THE VOID."
   require_abno =  /mob/living/simple_animal/abnormality/teth/void_dream
   adventure_cords = list(
-    "The cold darkness of the void embraces you and the creature in front of you.<br>\
-	  Its wool is white, illuminated by the light of countless surrounding stars.<br>\
+    "The cold darkness of the void embraces you and the creature before you.<br>\
+	  Its wool is white, illuminated by the light of countless stars.<br>\
 	  From the mass of wool two eyes peak at you, it's head tucked away elsewhere.<br>\
 	  Brushing your hand against it you feel at ease, like it’s inviting you to join it's slumber.<br>\
-    You feel drowsy, and something else.<br>\
+    You feel drowsy, and some other feeling.<br>\
     Like a part of your heart is fading into the past.<br>\
-    Maybe, just maybe you could take a moment to rest your eyes?",
+    Maybe, you could take a moment to rest your eyes?",
 
     "Ability Challenge"
 
